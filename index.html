@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYliE html>
 <html>
 
 	<head>
@@ -6,45 +6,99 @@
 		<meta name="keywords" content="翁俊河，俊河，翁，IT,Java" />
 		<meta name="description" content="翁俊河来自广东惠来，就读于广州市仲恺农业工程学院，信息科学与技术学院，计算机科学与技术专业" />
 		<title>翁俊河主页</title>
-
-		<style type="text/css">
+		<style tylie="text/css">
+			.clearfix:after {
+				content: "";
+				height: 0;
+				line-height: 0;
+				display: block;
+				clear: both;
+				visibility: hidden;
+			}
+			.clearfix {
+				zoom: 1;
+			}
+			body {
+				background-color: aliceblue;
+				font-size: 21px;
+			}
 			h1 {
 				color: white;
 				background-color: darkgrey;
 				text-align: center;
+				font-size: 30px;
 			}
-			
-			img {
-				width: 500px;
+			h2 {
+				color: white;
+				font-size: 25px;
+				background-color: darkgrey;
+				padding-left: 1em;
 			}
-			
-			.content {
+			#myImg {
 				float: right;
+				width: 25%;
+			
+			}
+			
+			#myResume {
+				text-indent: 2em;
+				float: left;
+				width: 75%;
+			}
+			
+			li {
+				list-style: none;
+				
+			}
+			#mycomment,#myskill,#mystudy{
+				border: 2px solid deepskyblue;
+				border-radius: 5px;
+				margin-top: 10px;
 			}
 		</style>
-
-		<div class="box">
-			<div class="myImg">
-				<h1>个人简介</h1>
-				<img src="JunahW.github.io/483054403351015453.jpg" />
-				<div class="content">
-					<p>翁俊河来自广东惠来，于2015年9月18日就读于广州市仲恺农业工程学院，生命科学学院。后转专业信息科学与技术学院，计算机科学与技术专业。 生活态度积极乐观，动手能力强。负责有担当，学习成绩良好。
-					</p>
-
-					<h2>获奖情况</h2>
-					<p>2016年4月28日荣获生命科学学院第十七届“学习贯彻五中全会精神，传播仲恺青年正能量”主题团日活动影音比赛最佳表演奖。,<br /> 
-					2016年11月24日荣获信息科学与技术学院第四届宿舍文化节雅室设计大赛优秀奖。 2017年11月12日荣获2017年广东省第二届“中信杯”大学生物联网和大数据创新应用大赛（本科组）二等奖。
-					2018年4月12日，获得第九届蓝桥杯软件组Java B组三等奖。
-					</p>
-
+		<body>
+			<div class="box">
+				<div>
+					<h1>个人简介</h1>
+					<div id="myImg">
+						<img src="JunahW.github.io/483054403351015453.jpg" />
+					</div>
+					<div id="myResume">
+						<p>翁俊河,男，籍贯广东惠来，出生于1996年，2015年9月18日就读于广州市仲恺农业工程学院，生命科学学院。后转专业信息科学与技术学院，计算机科学与技术专业。 生活态度积极乐观，动手能力强。负责有担当，学习成绩良好。</p>
+					</div>
+				</div>
+				<div id="myskill" style="clear: both;">
+					<h2>IT技能和语言能力</h2>
+					<ul>
+						<li>有扎实的java基础知识，熟练掌握了Servlet/Jsli技术，熟悉并能恰当运用主流的设计模式。</li>
+						<li>熟练掌握Sliring框架，包括IOC和DI、AOP编程、声明式事务处理及SSH的整合等技术。</li>
+						<li>熟练掌握Mybatis、SliringMVC、等开源框架。</li>
+						<li>熟悉SQL Server、MySQL等关系型数据库，对非关系型数据库，如Redis也有一定了解。</li>
+						<li>掌握javaScrilit、Ajax、jQuery等前台页面技术，对HTML5、CSS有一定的了解。</li>
+						<li>熟悉Tomcat等部署与配置，熟悉Java相关开发工具（Eclipse，SVN）及项目管理工具Maven的使用，熟悉Linux常用命令的使用</li>
+						<li>会采用分布式缓存解决数据库压力</li>
+						<li>对于集群下session共享问题有一定的心得</li>
+					</ul>
+				</div>
+				<div id="mystudy">
+					<h2>在校情况</h2>
+					<ul>
+						<li>2016年4月28日荣获生。主题团日活动影音比赛最佳表演奖。</li>
+						<li>2016年11月24日荣获信息科学与技术学院第四届宿舍文化节雅室设计大赛优秀奖。 2017年11月12日荣获2017年广东省第二届“中信杯”大学生物联网和大数据创新应用大赛（本科组）二等奖。 </li>
+						<li>2018年4月12日，获得第九届蓝桥杯软件组Java B组三等奖。</li>
+					</ul>
 				</div>
 
+				<div id="mycomment">
+					<h2>自我评价</h2>
+					<ul>
+						<li>工作认真负责、谦虚谨慎，具备较好团队协作精神，有强烈的集体荣誉感；</li>
+						<li>学习能力强，适应能力强，责任心强，善于与人沟通；</li>
+						<li>热爱编程，喜欢追求新的技术，具备独立解决问题的能力；</li>
+						<li>持之以恒，能够承受较强的工作压力。</li>
+					</ul>
+				</div>
 			</div>
-
-		</div>
 	</head>
-
-	<body>
 	</body>
-
 </html>
