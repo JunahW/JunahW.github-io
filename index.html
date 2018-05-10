@@ -2,157 +2,514 @@
 <html>
 
 	<head>
-		<meta charset="UTF-8">
-		<meta name="keywords" content="翁俊河，俊河，翁，IT,Java" />
-		<meta name="description" content="翁俊河来自广东惠来，就读于广州市仲恺农业工程学院，信息科学与技术学院，计算机科学与技术专业" />
-		<link rel="icon" href="JunahW.github.io/java.jpg" type="img/x-ico" />
-		<title>翁俊河主页</title>
-		<style tylie="text/css">
-			.clearfix:after {
-				content: "";
-				height: 0;
-				line-height: 0;
-				display: block;
-				clear: both;
-				visibility: hidden;
-			}
-			
-			.clearfix {
-				zoom: 1;
-			}
-			
-			body {
-				background-color: aliceblue;
-				font-size: 21px;
-				padding: 0;
-				margin: 0;
-			}
-			
-			h1 {
-				color: white;
-				background-color: darkgrey;
-				text-align: center;
-				font-size: 30px;
-			}
-			
-			h2 {
-				color: white;
-				font-size: 25px;
-				background-color: darkgrey;
-				padding-left: 1em;
-			}
-			h3 {
-				color: deepskyblue;
-				font-size: 23px;
-				padding-left: 1em;
-			}
-			
-			#myImg {
-				float: right;
-				width: 25%;
-			}
-			
-			img {
-				width: 300px;
-				margin-right: 30px;
-			}
-			
-			#myResume {
-				text-indent: 2em;
-				float: left;
-				width: 70%;
-				margin-left: 30px;
-			}
-			
-			li {
-				list-style: none;
-			}
-			
-			#mycomment,
-			#myskill,
-			#mystudy,
-			#myMajor,
-			#myProject{
-				border: 2px solid deepskyblue;
-				border-radius: 5px;
-				margin: 10px 30px;
-			}
-		</style>
+		<title>JunahW_Home</title>
+		<!--mobile apps-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="翁俊河，java，MySQL，java开发，数据库" />
+		<script type="application/x-javascript">
+			addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 
-		<body>
-			<div class="box">
-				<div id="myContent">
-					<h1>个人简介</h1>
-					<div id="myImg">
-						<img src="JunahW.github.io/483054403351015453.jpg" />
+			function hideURLbar() { window.scrollTo(0, 1); }
+		</script>
+		<!--mobile apps-->
+		<!--Custom Theme files-->
+		<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+		<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+		<link rel="stylesheet" href="css/swipebox.css">
+		<!--//Custom Theme files-->
+		<!--js-->
+		<script src="js/jquery-1.11.1.min.js"></script>
+		<!-- //js -->
+		<!--web-fonts-->
+		<link href='https://fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+		<!--//web-fonts-->
+		<!--start-smooth-scrolling-->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event) {
+					event.preventDefault();
+					$('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+				});
+			});
+		</script>
+		<!--//end-smooth-scrolling-->
+	</head>
+
+	<body>
+		<!--banner-->
+		<div id="home" class="banner">
+			<div class="banner-info">
+				<div class="container">
+					<div class="col-md-4 header-left">
+						<img src="images/junah.jpg" alt="" />
 					</div>
-					<div id="myResume">
-						<p>翁俊河，男，籍贯广东惠来，出生于1996年，2015年9月18日就读于广州市仲恺农业工程学院，原生命科学学院。后因喜爱编程，转专业到信息科学与技术学院，计算机科学与技术专业。
-							在校期间，加入老师团队学习，有一定的团队开发经验。 生活态度积极乐观，动手能力强。负责有担当，学习成绩良好。</p>
-						<p>邮箱：1347006821@qq.com</p>
-						<p>电话：13602286536</p>
+					<div class="col-md-8 header-right">
+						<h2>您好！</h2>
+						<h1>我叫翁俊河</h1>
+						<h6>java开发工程师</h6>
+						<ul class="address">
+							<li>
+								<ul class="address-text">
+									<li><b>生日：</b></li>
+									<li>1996-11-11</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>手机： </b></li>
+									<li>13602286536</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>住址： </b></li>
+									<li>仲恺农业工程学院（海珠校区）</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>E-mail: </b></li>
+									<li>
+										<a href="mailto:example@mail.com"> junahw@163.com</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<ul class="address-text">
+									<li><b>主页 </b></li>
+									<li>
+										<a href="#">就是这一页</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
 					</div>
-				</div>
-
-				<div id="myMajor" style="clear: both;">
-					<h2>主修课程及自学</h2>
-					<h3>主修课程</h3>
-					<ul>
-						<li>C语言，C++，Java，JavaWeb</li>
-						<li>数据结构，SQL Server</li>
-						<li>设计模式，软件测试，算法分析与设计，软件工程，Linux等</li>
-						<li>网络安全，计算机网络</li>
-
-					</ul>
-					<h3>自学内容</h3>
-					<ul>
-						<li>后台:JavaEE，MySql,Redis,Ehcache,Quartz,Solr,Lucene</li>
-						<li>前端:Html，CSS，JavaScript，jQuery</li>
-						<li>框架:Spring，SpringMVC，Mybatis，Struts,Hibernate，CXF</li>
-					</ul>
-				</div>
-				<div id="myskill">
-					<h2>IT技能和语言能力</h2>
-					<ul>
-						<li>有扎实的java基础知识，熟练掌握了Servlet/Jsp技术，熟悉并能恰当运用主流的设计模式。</li>
-						<li>熟练掌握Spring框架，包括IOC和DI、AOP编程、声明式事务处理及SSH的整合等技术。</li>
-						<li>熟练掌握Mybatis、SpringMVC、等开源框架。</li>
-						<li>熟悉SQL Server、MySQL等关系型数据库，对非关系型数据库，如Redis也有一定了解。</li>
-						<li>掌握javaScript、Ajax、jQuery等前台页面技术，对HTML5、CSS有一定的了解。</li>
-						<li>熟悉Tomcat等部署与配置，熟悉Java相关开发工具（Eclipse，SVN）及项目管理工具Maven的使用，熟悉Linux常用命令的使用</li>
-						<li>会采用分布式缓存解决数据库压力</li>
-						<li>对于集群下session共享问题有一定的心得</li>
-					</ul>
-				</div>
-				<div id="myProject">
-					<h2>项目经验</h2>
-					<ul>
-						<li>用JavaSE和Sql Server搭建商场管理系统</li>
-						<li>用servlet，jsp，ajax等搭建团队官网</li>
-						<li>用JavaEE，Tomcat，Mysql，jQuery等搭建电子商场</li>
-						<li>用SSM搭建crm系统</li>
-					</ul>
-				</div>
-				<div id="mystudy">
-					<h2>在校情况</h2>
-					<ul>
-						<li>2016年4月28日荣获生。主题团日活动影音比赛最佳表演奖。</li>
-						<li>2016年11月24日荣获信息科学与技术学院第四届宿舍文化节雅室设计大赛优秀奖。 2017年11月12日荣获2017年广东省第二届“中信杯”大学生物联网和大数据创新应用大赛（本科组）二等奖。 </li>
-						<li>2018年4月12日，获得第九届蓝桥杯软件组Java B组三等奖。</li>
-					</ul>
-				</div>
-
-				<div id="mycomment">
-					<h2>自我评价</h2>
-					<ul>
-						<li>工作认真负责、谦虚谨慎，具备较好团队协作精神，有强烈的集体荣誉感；</li>
-						<li>学习能力强，适应能力强，责任心强，善于与人沟通；</li>
-						<li>热爱编程，喜欢追求新的技术，具备独立解决问题的能力；</li>
-						<li>持之以恒，能够承受较强的工作压力。</li>
-					</ul>
+					<div class="clearfix"> </div>
 				</div>
 			</div>
-	</head>
+		</div>
+		<!--//banner-->
+		<!--top-nav-->
+		<div class="top-nav wow">
+			<div class="container">
+				<div class="navbar-header logo">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					菜单
+				</button>
+				</div>
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<div class="menu">
+						<ul class="nav navbar">
+							<li>
+								<a href="#about" class="scroll">关于我的</a>
+							</li>
+							<li>
+								<a href="#work" class="scroll">项目经验</a>
+							</li>
+							<li>
+								<a href="#education" class="scroll">在校情况</a>
+							</li>
+							<li>
+								<a href="#skills" class="scroll">我的技能</a>
+							</li>
+							<!--<li>
+								<a href="#projects" class="scroll">我的项目</a>
+							</li>-->
+							<!--<li>
+								<a href="#contact" class="scroll">联系我</a>
+							</li>-->
+						</ul>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--//top-nav-->
+		<!--about-->
+		<div id="about" class="about">
+			<div class="container">
+				<h3 class="title"> 关于我的</h3>
+				<div class="col-md-7 about-left">
+					<p style="font-size: 20px;text-indent: 2em;">2015年9月18日就读于广州市仲恺农业工程学院，就读信息科学与技术学院，计算机科学与技术专业。 在校期间，加入老师团队学习，有一定的团队开发经验。 生活态度积极乐观，动手能力强。负责有担当，学习成绩良好。</p>
+
+				</div>
+				<div class="col-md-5 about-right">
+					<ul>
+						<h5>自我评价</h5>
+						<li><span class="glyphicon glyphicon-menu-right"></span> 认真负责，具备较好团队协作精神</li>
+						<li><span class="glyphicon glyphicon-menu-right"></span> 谦虚谨慎，有强烈的集体荣誉感</li>
+						<li><span class="glyphicon glyphicon-menu-right"></span> 热爱编程，喜欢追求新的技术</li>
+						<li><span class="glyphicon glyphicon-menu-right"></span> 热衷钻研，具备独立解决问题的能力</li>
+						<li><span class="glyphicon glyphicon-menu-right"></span> 持之以恒，能够承受较强的工作压力</li>
+						<li><span class="glyphicon glyphicon-menu-right"></span> 积极乐观，善于与人沟通</li>
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<!--//about-->
+		<!--work-experience-->
+		<div id="work" class="work">
+			<div class="container">
+				<h3 class="title">项目经验</h3>
+				<div class="work-info">
+					<div class="col-md-6 work-left">
+						<h4>2017/06 - 2017/7 </h4>
+					</div>
+					<div class="col-md-6 work-right">
+						<h5><span class="glyphicon glyphicon-briefcase"> </span> 商城管理系统</h5>
+						<p>实现一个简单的商场管理系统，完成：商场管理、商品管理、顾客管理、售货员管理、销售记录管理等几个功能。系统所针对的用户是售货员、顾客以及公司的经理（管理员）。前端展示运用swing，后台用java se以及SQL server搭建。 </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="work-info">
+					<div class="col-md-6 work-right work-right2">
+						<h4>2017/7 - 2017/9 </h4>
+					</div>
+					<div class="col-md-6 work-left work-left2">
+						<h5> 学院团队官网 <span class="glyphicon glyphicon-briefcase"> </span></h5>
+						<p>该项目的主要实现目标是展示团队的成果，团队新闻，公告，在线学习，以及团队成员招新报名。带领团队7人历时两个月完成了对该项目的开发完成。该系统使用Servlet+filter+Ajax+JQuery技术。通过Filter拦截用户是否登录，实现粗粒度的权限控制。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="work-info">
+					<div class="col-md-6 work-left">
+						<h4>2018/1-2018/2</h4>
+					</div>
+					<div class="col-md-6 work-right">
+						<h5><span class="glyphicon glyphicon-briefcase"> </span> 电子商场</h5>
+						<p>该项目主要是完成网上购物系统的开发，该系统分为首页、用户管理、购物车管理、订单管理、退出5个模块。 与6名团队成员共同努力下，分别在首页模块实现了模糊分页查询、分类分页查询等功能；用户管理模块实现了登录、注册、修改、查看信息等功能；购物车模块实现了查看、购买、修改商品数量等功能；订单模块实现了查看、删除等功能。 本项目结构上分为表现层、业务层和数据访问层。层次间的依赖关系自下到上。采用的技术有SpringMVC，Spring，Mybati等。其中表现层采用SpringMVC框架开发；业务层封装业务流程，为适应业务的变更，每一业务模块均有专门的接口及实现类， 利用Spring的IoC功能将 实现类注入给表现层的Controller；数据访问层借助于mybatis实现，代码简洁且可适应不同的数据库。事务部分利用Spring的声明式事务管 理。为提高性能，采用redis实现了缓存,降低数据库的压力。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<!--<div class="work-info">
+					<div class="col-md-6 work-right work-right2">
+						<h4>2010 - 2012 </h4>
+					</div>
+					<div class="col-md-6 work-left work-left2">
+						<h5> Company Name <span class="glyphicon glyphicon-briefcase"></span> </h5>
+						<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo </p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>-->
+			</div>
+		</div>
+		<!--//work-experience-->
+		<!--education-->
+		<div id="education" class="education">
+			<div class="container">
+				<h3 class="title">在校情况</h3>
+				<div class="work-info">
+					<div class="col-md-6 work-left">
+						<h4>2016-04</h4>
+					</div>
+					<div class="col-md-6 work-right">
+						<h5><span class="glyphicon glyphicon-education"> </span> 院级</h5>
+						<p>主题团日活动影音比赛最佳表演奖。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="work-info">
+					<div class="col-md-6 work-right work-right2">
+						<h4>2017-11</h4>
+					</div>
+					<div class="col-md-6 work-left work-left2">
+						<h5> 院级 <span class="glyphicon glyphicon-education"></span></h5>
+						<p>宿舍文化节雅室设计大赛优秀奖</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="work-info">
+					<div class="col-md-6 work-left">
+						<h4>2017-11</h4>
+					</div>
+					<div class="col-md-6 work-right">
+						<h5><span class="glyphicon glyphicon-education"> </span> 省级</h5>
+						<p>广东省第二届“中信杯”大学生物联网和大数据创新应用大赛（本科组）二等奖</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="work-info">
+					<div class="col-md-6 work-right work-right2">
+						<h4>2018-04</h4>
+					</div>
+					<div class="col-md-6 work-left work-left2">
+						<h5> 省级 <span class="glyphicon glyphicon-education"></span></h5>
+						<p>第九届蓝桥杯软件组Java B组三等奖</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+
+				<div class="work-info">
+					<div class="col-md-6 work-left">
+						<h4>2018-03</h4>
+					</div>
+					<div class="col-md-6 work-right">
+						<h5><span class="glyphicon glyphicon-education"> </span> 证书</h5>
+						<p>大学英语六级</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!--//education-->
+		<!--skills-->
+		<div id="skills" class="skills">
+			<div class="container">
+				<h3 class="title">我的技能</h3>
+				<div class="skills-info">
+					<div class="col-md-6 bar-grids">
+						<h6>Java SE  <span> 80% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 80%">
+							</div>
+						</div>
+						<h6>Java Web <span> 70% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 70%">
+							</div>
+						</div>
+						<h6>HTML/CSS<span>70% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 70%">
+							</div>
+						</div>
+						<h6>JavaScript、jQuery/Ajax <span> 70% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 70%">
+							</div>
+						</div>
+						<h6>Activiti<span> 40% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 40%">
+							</div>
+						</div>
+						<h6>WebService<span> 70% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 70%">
+							</div>
+						</div>
+						<h6>Solr、Lucene<span> 70% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 70%">
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-6 bar-grids">
+						<h6>Spring SpringMVC <span> 75% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 75%">
+							</div>
+						</div>
+						<h6>Mysql、SQL Server<span> 75% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 75%">
+							</div>
+						</div>
+						<h6>Hibernate、Struts2<span>60% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 60%">
+							</div>
+						</div>
+						<h6>Activity MQ<span> 60% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 60%">
+							</div>
+						</div>
+						<h6>Linux<span> 75% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 75%">
+							</div>
+						</div>
+						<h6>Redis<span> 60% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 60%">
+							</div>
+						</div>
+						<h6>Maven<span> 70% </span></h6>
+						<div class="progress">
+							<div class="progress-bar progress-bar-striped active" style="width: 70%">
+							</div>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+		<!--//education-->
+		<!--portfolio-->
+		<!--<div id="projects" class="portfolio">
+			<div class="container">
+				<h3 class="title wow zoomInLeft animated" data-wow-delay=".5s">我的项目</h3>
+				<div class="sap_tabs">
+					<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+						<ul class="resp-tabs-list wow fadeInUp animated" data-wow-delay=".7s">
+							<li class="resp-tab-item"><span>All</span></li>
+							<li class="resp-tab-item"><span>Html</span></li>
+						</ul>
+						<div class="clearfix"> </div>
+						<div class="resp-tabs-container">
+							<div class="tab-1 resp-tab-content">
+								<div class="tab_img">
+									
+									<div class="col-md-4 portfolio-grids">
+										<div class="grid">
+											<a href="images/g7.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+												<img src="images/g7.jpg" alt="" class="img-responsive" />
+												<div class="figcaption">
+													<h3>我的项目</span></h3>
+													<p>Sarah likes to watch clouds. She's quite depressed.</p>
+												</div>
+											</a>
+										</div>
+									</div>
+									
+									
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+							<div class="tab-1 resp-tab-content">
+								<div class="tab_img">
+									<div class="col-md-4 portfolio-grids">
+										<div class="grid">
+											<a href="images/g5.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+												<img src="images/g5.jpg" alt="" class="img-responsive" />
+												<div class="figcaption">
+													<h3>我的项目</span></h3>
+													<p>Sarah likes to watch clouds. She's quite depressed.</p>
+												</div>
+											</a>
+										</div>
+									</div>
+									
+								</div>
+							</div>
+							<div class="tab-1 resp-tab-content">
+
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g9.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g9.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>我的项目</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>
+									</div>
+								</div>
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+						<div class="tab-1 resp-tab-content">
+							<div class="tab_img">
+								<div class="col-md-4 portfolio-grids">
+									<div class="grid">
+										<a href="images/g2.jpg" class="swipebox" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis maximus tortor diam, ac lobortis justo rutrum quis. Praesent non purus fermentum, eleifend velit non">
+											<img src="images/g2.jpg" alt="" class="img-responsive" />
+											<div class="figcaption">
+												<h3>我的项目</span></h3>
+												<p>Sarah likes to watch clouds. She's quite depressed.</p>
+											</div>
+										</a>
+									</div>
+								</div>
+
+								<div class="clearfix"> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<!--ResponsiveTabs-->
+			<script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+			<script type="text/javascript">
+				$(document).ready(function() {
+					$('#horizontalTab').easyResponsiveTabs({
+						type: 'default', //Types: default, vertical, accordion           
+						width: 'auto', //auto or any width like 600px
+						fit: true // 100% fit in a container
+					});
+				});
+			</script>
+			<!--//ResponsiveTabs-->
+			<!-- swipe box js -->
+			<script src="js/jquery.swipebox.min.js"></script>
+			<script type="text/javascript">
+				jQuery(function($) {
+					$(".swipebox").swipebox();
+				});
+			</script>
+			<!-- //swipe box js -->
+		</div>
+		</div>
+		<!--//portfolio-->
+		<!--contact -->
+		<!--<div class="welcome contact" id="contact">
+			<div class="container">
+				<h3 class="title">Contact Us</h3>
+				<div class="contact-row">
+					<div class="col-md-6 contact-right">
+						<div class="address-left">
+							<p>756 global Place, North Sydney,<br> FA-2305,Canada </p>
+						</div>
+						<div class="address-right">
+							<p>Call us : +00 111 222 3333</p>
+							<p>E-mail :
+								<a href="mailto:info@example.com">mail@example.com</a>
+							</p>
+						</div>
+						<div class="clearfix"></div>
+						<div class="contact-form">
+							<form action="#" method="post">
+								<input type="text" name="Name" placeholder="Name" required="">
+								<input class="email" name="Email" type="text" placeholder="Email" required="">
+								<input class="phone" name="phone" type="text" placeholder="Phone" required="">
+								<textarea name="Message" placeholder="Message" required=""></textarea>
+								<input type="submit" value="SUBMIT">
+							</form>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>-->
+		</div>
+		<!--//contact -->
+		<!--footer-->
+		<div class="footer">
+			<div class="container">
+				<p>Copyright &copy; 2016.Company name All rights reserved.More Templates
+					<a href="#" title="">Junah</a>
+			</div>
+		</div>
+		<!--//footer-->
+		<!--smooth-scrolling-of-move-up-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+				var defaults = {
+					containerID: 'toTop', // fading element id
+					containerHoverID: 'toTopHover', // fading element hover id
+					scrollSpeed: 1200,
+					easingType: 'linear'
+				};
+
+				$().UItoTop({ easingType: 'easeOutQuart' });
+
+			});
+		</script>
+		<!--//smooth-scrolling-of-move-up-->
+		<!-- Bootstrap core JavaScript
+    ================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="js/bootstrap.js"></script>
 	</body>
 
 </html>
